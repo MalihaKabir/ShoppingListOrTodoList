@@ -18,8 +18,8 @@ function createItems() {
   // createBtn.onclick = removeParent
 
   let li = document.createElement('li')
-  var btn = document.createElement("button");
-  var btnEdit = document.createElement("button");
+  let btn = document.createElement("button");
+  let btnEdit = document.createElement("button");
   btn.appendChild(document.createTextNode("Delete"));
   btnEdit.appendChild(document.createTextNode("Mark as Done"));
 
