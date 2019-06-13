@@ -40,7 +40,7 @@ function createItems() {
 
 // my assignment (only editing):
   btnEdit.addEventListener('click', function () {
-    li.classList.toggle('done') && li.appendChild(document.createTextNode(input.value))
+    li.classList.toggle('done')
   })
 }
 
